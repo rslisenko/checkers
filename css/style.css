@@ -1,5 +1,5 @@
 body{
-
+	padding: 10px;
 }
 
 
@@ -60,13 +60,20 @@ select:focus {
 textarea {
 
 }
-.board {
+.ba-header h1 {
+	text-align: center;
+}
+.ba-main {
+	// padding: 10px;
+}
+.ba-board {
 	position: relative;
 	width: 800px;
 	height: 800px;
+	margin: 0 auto;
 	border: 1px solid #333;
 }
-.cell {
+.ba-cell {
 	position: absolute;
 	width: 100px;
 	height: 100px;
