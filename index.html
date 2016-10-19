@@ -22,83 +22,138 @@
 			<h1>Доска</h1>
 		</header>
 		<main class="ba-main">
-			<div class="ba-board">
-				<!-- 1 -->
-				<div class="ba-cell wtite" style="top:0px; left: 0px;"></div>
-				<div class="ba-cell black" style="top:0px; left: 100px;"></div>
-				<div class="ba-cell wtite" style="top:0px; left: 200px;"></div>
-				<div class="ba-cell black" style="top:0px; left: 300px;"></div>
-				<div class="ba-cell wtite" style="top:0px; left: 400px;"></div>
-				<div class="ba-cell black" style="top:0px; left: 500px;"></div>
-				<div class="ba-cell wtite" style="top:0px; left: 600px;"></div>
-				<div class="ba-cell black" style="top:0px; left: 700px;"></div>
-				<!-- 2 -->
-				<div class="ba-cell black" style="top:100px; left: 0px;"></div>
-				<div class="ba-cell wtite" style="top:100px; left: 100px;"></div>
-				<div class="ba-cell black" style="top:100px; left: 200px;"></div>
-				<div class="ba-cell wtite" style="top:100px; left: 300px;"></div>
-				<div class="ba-cell black" style="top:100px; left: 400px;"></div>
-				<div class="ba-cell wtite" style="top:100px; left: 500px;"></div>
-				<div class="ba-cell black" style="top:100px; left: 600px;"></div>
-				<div class="ba-cell wtite" style="top:100px; left: 700px;"></div>
-				<!-- 3 -->
-				<div class="ba-cell wtite" style="top:200px; left: 0px;"></div>
-				<div class="ba-cell black" style="top:200px; left: 100px;"></div>
-				<div class="ba-cell wtite" style="top:200px; left: 200px;"></div>
-				<div class="ba-cell black" style="top:200px; left: 300px;"></div>
-				<div class="ba-cell wtite" style="top:200px; left: 400px;"></div>
-				<div class="ba-cell black" style="top:200px; left: 500px;"></div>
-				<div class="ba-cell wtite" style="top:200px; left: 600px;"></div>
-				<div class="ba-cell black" style="top:200px; left: 700px;"></div>
-				<!-- 4 -->
-				<div class="ba-cell black" style="top:300px; left: 0px;"></div>
-				<div class="ba-cell wtite" style="top:300px; left: 100px;"></div>
-				<div class="ba-cell black" style="top:300px; left: 200px;"></div>
-				<div class="ba-cell wtite" style="top:300px; left: 300px;"></div>
-				<div class="ba-cell black" style="top:300px; left: 400px;"></div>
-				<div class="ba-cell wtite" style="top:300px; left: 500px;"></div>
-				<div class="ba-cell black" style="top:300px; left: 600px;"></div>
-				<div class="ba-cell wtite" style="top:300px; left: 700px;"></div>
-				<!-- 5 -->
-				<div class="ba-cell wtite" style="top:400px; left: 0px;"></div>
-				<div class="ba-cell black" style="top:400px; left: 100px;"></div>
-				<div class="ba-cell wtite" style="top:400px; left: 200px;"></div>
-				<div class="ba-cell black" style="top:400px; left: 300px;"></div>
-				<div class="ba-cell wtite" style="top:400px; left: 400px;"></div>
-				<div class="ba-cell black" style="top:400px; left: 500px;"></div>
-				<div class="ba-cell wtite" style="top:400px; left: 600px;"></div>
-				<div class="ba-cell black" style="top:400px; left: 700px;"></div>
-				<!-- 6 -->
-				<div class="ba-cell black" style="top:500px; left: 0px;"></div>
-				<div class="ba-cell wtite" style="top:500px; left: 100px;"></div>
-				<div class="ba-cell black" style="top:500px; left: 200px;"></div>
-				<div class="ba-cell wtite" style="top:500px; left: 300px;"></div>
-				<div class="ba-cell black" style="top:500px; left: 400px;"></div>
-				<div class="ba-cell wtite" style="top:500px; left: 500px;"></div>
-				<div class="ba-cell black" style="top:500px; left: 600px;"></div>
-				<div class="ba-cell wtite" style="top:500px; left: 700px;"></div>
-				<!-- 7 -->
-				<div class="ba-cell wtite" style="top:600px; left: 0px;"></div>
-				<div class="ba-cell black" style="top:600px; left: 100px;"></div>
-				<div class="ba-cell wtite" style="top:600px; left: 200px;"></div>
-				<div class="ba-cell black" style="top:600px; left: 300px;"></div>
-				<div class="ba-cell wtite" style="top:600px; left: 400px;"></div>
-				<div class="ba-cell black" style="top:600px; left: 500px;"></div>
-				<div class="ba-cell wtite" style="top:600px; left: 600px;"></div>
-				<div class="ba-cell black" style="top:600px; left: 700px;"></div>
-				<!-- 8 -->
-				<div class="ba-cell black" style="top:700px; left: 0px;"></div>
-				<div class="ba-cell wtite" style="top:700px; left: 100px;"></div>
-				<div class="ba-cell black" style="top:700px; left: 200px;"></div>
-				<div class="ba-cell wtite" style="top:700px; left: 300px;"></div>
-				<div class="ba-cell black" style="top:700px; left: 400px;"></div>
-				<div class="ba-cell wtite" style="top:700px; left: 500px;"></div>
-				<div class="ba-cell black" style="top:700px; left: 600px;"></div>
-				<div class="ba-cell wtite" style="top:700px; left: 700px;"></div>
+			<div class="ba-board-container">
+				<div class="ba-board">
+					<!-- 1 -->
+					<div class="row row-1">
+						<div class="col col-1 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-2 "></div>
+						<div class="col col-3 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-4 "></div>
+						<div class="col col-5 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-6 "></div>
+						<div class="col col-7 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-8 "></div>
+					</div>
+					<!-- 2 -->
+					<div class="row row-2">
+						<div class="col col-1 "></div>
+						<div class="col col-2 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-3 "></div>
+						<div class="col col-4 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-5 "></div>
+						<div class="col col-6 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-7 "></div>
+						<div class="col col-8 ">
+							<div class="ba-white-checker"></div>
+						</div>
+					</div>
+					<!-- 3 -->
+					<div class="row row-3">
+						<div class="col col-1 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-2 "></div>
+						<div class="col col-3 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-4 "></div>
+						<div class="col col-5 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-6 "></div>
+						<div class="col col-7 ">
+							<div class="ba-white-checker"></div>
+						</div>
+						<div class="col col-8 "></div>
+					</div>
+					<!-- 4 -->
+					<div class="row row-4">
+						<div class="col col-1 "></div>
+						<div class="col col-2 "></div>
+						<div class="col col-3 "></div>
+						<div class="col col-4 "></div>
+						<div class="col col-5 "></div>
+						<div class="col col-6 "></div>
+						<div class="col col-7 "></div>
+						<div class="col col-8 "></div>
+					</div>
+					<!-- 5 -->
+					<div class="row row-5">
+						<div class="col col-1 "></div>
+						<div class="col col-2 "></div>
+						<div class="col col-3 "></div>
+						<div class="col col-4 "></div>
+						<div class="col col-5 "></div>
+						<div class="col col-6 "></div>
+						<div class="col col-7 "></div>
+						<div class="col col-8 "></div>
+					</div>
+					<!-- 6 -->
+					<div class="row row-6">
+						<div class="col col-1 "></div>
+						<div class="col col-2 "><div class="ba-dark-checker"></div></div>
+						<div class="col col-3 "></div>
+						<div class="col col-4 "><div class="ba-dark-checker"></div></div>
+						<div class="col col-5 "></div>
+						<div class="col col-6 "><div class="ba-dark-checker"></div></div>
+						<div class="col col-7 "></div>
+						<div class="col col-8 "><div class="ba-dark-checker"></div></div>
+					</div>
+					<!-- 7 -->
+					<div class="row row-7">
+						<div class="col col-1 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-2 "></div>
+						<div class="col col-3 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-4 "></div>
+						<div class="col col-5 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-6 "></div>
+						<div class="col col-7 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-8 "></div>
+					</div>
+					<!-- 8 -->
+					<div class="row row-8">
+						<div class="col col-1 "></div>
+						<div class="col col-2 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-3 "></div>
+						<div class="col col-4 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-5 "></div>
+						<div class="col col-6 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+						<div class="col col-7 "></div>
+						<div class="col col-8 ">
+							<div class="ba-dark-checker"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
-		<footer class="ba-footer">
-
-		</footer>
 	</body>
-	</html>
+</html>
